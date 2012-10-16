@@ -1,7 +1,7 @@
 DjangAuvergne Theme for Pelican
 ===============================
 
-This theme has been designed for Pelican 3. It is used for the DjangAuvergne community blog [http://URL]()
+This theme has been designed for Pelican 3. It is used for the [DjangAuvergne community blog](http://djangauvergne.github.com/djangauvergne-blog/)
 
 For more information about the pelican project, please refere to the project page: [http://getpelican.com](http://getpelican.com)
 
