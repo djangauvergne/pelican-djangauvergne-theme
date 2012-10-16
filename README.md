@@ -25,3 +25,9 @@ Pelican offers the opportunity to have a develop mode for themes. Hence, if you 
 
     pelican-themes -s $PWD/djangauvergne
 
+This theme uses the brilliant [Sass](http://sass-lang.com/)-based [zurb-foundation](http://foundation.zurb.com/) framework to deal with style and components. Thereby, working on it requires you have installed required gems :
+
+* zurb-foundation (3.1.1)
+* compass (0.12.2)
+* sass (3.2.1)
+
