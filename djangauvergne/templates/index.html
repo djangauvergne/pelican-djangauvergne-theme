@@ -11,7 +11,7 @@
         {% if loop.first and not articles_page.has_previous() %}
             <aside id="featured">
                 <article>
-                    <h3 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+                    <h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
                     {% include 'article_infos.html' %}{{ article.content }}{% include 'comments.html' %}
                 </article>
                 {% if loop.length == 1 %}

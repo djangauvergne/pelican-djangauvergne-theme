@@ -38,7 +38,7 @@
 
     <header class="row">
         <div class="twelve columns">
-            <ul class="nav-bar">
+            <ul class="nav">
                 {% for title, link in MENUITEMS %}
                 <li><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}
@@ -48,9 +48,11 @@
                 {% endfor %}
                 {% endif %}
             </ul>
-
-            <h1><a href="{{ SITEURL }}">{{ SITENAME }} {% if SITESUBTITLE %}<small>{{ SITESUBTITLE }}</small>{% endif %}</a></h1>
-            <hr />
+            <div class="brand">
+                <a href="{{ SITEURL }}" title="{{ SITENAME }} - {% if SITESUBTITLE %}{{ SITESUBTITLE }}{% endif %}">
+                    <img src="{{ SITEURL }}/theme/images/DjangAuvergne_banner.png" alt="DjangAuvergne Banner" />
+                </a>
+            </div>
         </div>
     </header>
 
@@ -58,7 +60,7 @@
 
     <!-- Main Page Content and Sidebar -->
 
-    <div class="row">
+    <div id="content-wrapper" class="row">
 
         <!-- Main Blog Content -->
         <div class="nine columns" role="content">
@@ -114,25 +116,26 @@
 
     <!-- Footer -->
 
-    <footer class="row">
-        <div class="twelve columns">
-            <hr />
-            <div class="row">
-                <div class="six columns">
-                  <p>&copy; Copyright no one at all. Go to town.</p>
-                </div>
-                <div class="six columns">
-                    {% if LINKS %}
-                    <ul class="link-list right">
-                        {% for name, link in LINKS %}
-                        <li><a href="{{ link }}">{{ name }}</a></li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
+    <div id="footer-wrapper">
+        <footer class="row">
+            <div class="twelve columns">
+                <div class="row">
+                    <div class="six columns">
+                        <p>&copy; Copyright no one at all. Go to town.</p>
+                    </div>
+                    <div class="six columns">
+                        {% if LINKS %}
+                        <ul class="link-list right">
+                            {% for name, link in LINKS %}
+                            <li><a href="{{ link }}">{{ name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 
     <!-- End Footer -->
 

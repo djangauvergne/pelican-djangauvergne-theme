@@ -1,3 +1,6 @@
+// Font size
+@import "modular-scale";
+
 // You custom settings file to override Foundation defaults
 @import "settings";
 
@@ -6,3 +9,6 @@
 
 // Code syntax highlighting
 @import "pygment";
+
+// Pages style
+@import "page";
