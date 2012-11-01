@@ -5883,7 +5883,7 @@ table.hide-for-medium {
   margin-bottom: 20px;
   padding: 15px 10px;
   border: 1px solid #f27e8c;
-  background: #fef2f3;
+  background: rgba(254, 242, 243, 0.2);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -6221,8 +6221,9 @@ table.hide-for-medium {
 /* line 1, ../sass/_page.scss */
 body {
   z-index: 1;
+  background-image: url("../images/rockywall.png");
 }
-/* line 4, ../sass/_page.scss */
+/* line 5, ../sass/_page.scss */
 body ul {
   list-style-position: inside;
   list-style-type: none;
@@ -6230,15 +6231,15 @@ body ul {
   padding-left: 1em;
   text-indent: -1em;
 }
-/* line 10, ../sass/_page.scss */
+/* line 11, ../sass/_page.scss */
 body ul li:before {
   content: "\00BB \0020";
 }
-/* line 15, ../sass/_page.scss */
+/* line 16, ../sass/_page.scss */
 body blockquote p {
   color: #a074bb;
 }
-/* line 19, ../sass/_page.scss */
+/* line 20, ../sass/_page.scss */
 body .panel {
   background: #f0eaf2;
   -webkit-border-radius: 5px;
@@ -6247,52 +6248,43 @@ body .panel {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 25, ../sass/_page.scss */
+/* line 26, ../sass/_page.scss */
 body header ul.nav {
   list-style-type: none;
   height: 40px;
   padding-top: 20px;
 }
-/* line 29, ../sass/_page.scss */
+/* line 30, ../sass/_page.scss */
 body header ul.nav li {
   display: block;
   float: left;
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 34, ../sass/_page.scss */
+/* line 35, ../sass/_page.scss */
 body header ul.nav li:before {
   content: "< ";
 }
-/* line 37, ../sass/_page.scss */
+/* line 38, ../sass/_page.scss */
 body header ul.nav li:after {
   content: " />";
 }
-/* line 40, ../sass/_page.scss */
+/* line 41, ../sass/_page.scss */
 body header ul.nav li a {
   color: #513165;
 }
-/* line 46, ../sass/_page.scss */
+/* line 47, ../sass/_page.scss */
 body header .brand {
   z-index: 10;
   position: relative;
   top: -50px;
 }
-/* line 53, ../sass/_page.scss */
+/* line 54, ../sass/_page.scss */
 body #content-wrapper {
   position: relative;
   top: -150px;
 }
-/* line 57, ../sass/_page.scss */
-body #content-wrapper div[role="content"] {
-  background: #fff;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-  border-radius: 15px;
-}
-/* line 63, ../sass/_page.scss */
+/* line 64, ../sass/_page.scss */
 body #footer-wrapper {
   background: #513165;
   -webkit-box-shadow: #513165 -5px 0 10px;

@@ -1,5 +1,6 @@
 body {
     z-index: 1;
+    background-image: url('../images/rockywall.png');
 
     ul {
         list-style-position: inside;
@@ -55,8 +56,8 @@ body {
         top:-150px;
 
         div[role="content"] {
-            background: #fff;
-            @include border-radius(15px);
+            //background: #fff;
+            //@include border-radius(15px);
         }
     }
 
