@@ -6358,3 +6358,7 @@ header .brand {
   padding-top: 30px;
   min-height: 100px;
 }
+/* line 97, ../sass/_page.scss */
+#footer-wrapper footer * {
+  font-size: 14px;
+}
