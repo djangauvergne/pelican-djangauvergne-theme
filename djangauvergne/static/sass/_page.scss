@@ -24,6 +24,16 @@ ul {
     li:before {
         content:"\00BB \0020";
     }
+    &.side-nav {
+        list-style: none inside none;
+        text-indent:0;
+        li {
+            &:before { content:"" }
+            a {
+                display: inline;
+            }
+        }
+    }
 }
 
 blockquote p {
