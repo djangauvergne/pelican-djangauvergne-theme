@@ -48,6 +48,8 @@ blockquote p {
 }
 
 header {
+    height:420px;
+
     ul.nav {
         list-style-type: none;
         height:40px;
@@ -69,17 +71,18 @@ header {
         }
     }
 
-    .brand {
-        z-index:10;
-        position: relative;
-        top:-50px;
+    #brand {
+        & > div {
+            position: absolute;
+            top:10px;
+        }
+        #brand_bg { z-index:10 }
+        #brand_title { z-index:11 }
+        #brand_poney { z-index:12 }
     }
 }
 
 #content-wrapper {
-    position:relative;
-    top:-150px;
-
     div[role="content"] {
         background: rgba(#fff, 0.4);
         @include border-radius(15px);
@@ -87,13 +90,12 @@ header {
 }
 
 #footer-wrapper {
-    //position:relative;
-    //top:-100px;
     background:$txtColor;
     @include box-shadow($txtColor -5px 0 10px);
     color:#fff;
-    padding-top:30px;
-    min-height:100px;
+    margin-top: 30px;
+    padding-top: 30px;
+    min-height: 100px;
 
     footer {
         * {

@@ -6302,44 +6302,54 @@ blockquote p {
   border-radius: 5px;
 }
 
-/* line 51, ../sass/_page.scss */
+/* line 50, ../sass/_page.scss */
+header {
+  height: 420px;
+}
+/* line 53, ../sass/_page.scss */
 header ul.nav {
   list-style-type: none;
   height: 40px;
   padding-top: 20px;
 }
-/* line 55, ../sass/_page.scss */
+/* line 57, ../sass/_page.scss */
 header ul.nav li {
   display: block;
   float: left;
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 60, ../sass/_page.scss */
+/* line 62, ../sass/_page.scss */
 header ul.nav li:before {
   content: "< ";
 }
-/* line 63, ../sass/_page.scss */
+/* line 65, ../sass/_page.scss */
 header ul.nav li:after {
   content: " />";
 }
-/* line 66, ../sass/_page.scss */
+/* line 68, ../sass/_page.scss */
 header ul.nav li a {
   color: #513165;
 }
-/* line 72, ../sass/_page.scss */
-header .brand {
+/* line 75, ../sass/_page.scss */
+header #brand > div {
+  position: absolute;
+  top: 10px;
+}
+/* line 79, ../sass/_page.scss */
+header #brand #brand_bg {
   z-index: 10;
-  position: relative;
-  top: -50px;
+}
+/* line 80, ../sass/_page.scss */
+header #brand #brand_title {
+  z-index: 11;
+}
+/* line 81, ../sass/_page.scss */
+header #brand #brand_poney {
+  z-index: 12;
 }
 
-/* line 79, ../sass/_page.scss */
-#content-wrapper {
-  position: relative;
-  top: -150px;
-}
-/* line 83, ../sass/_page.scss */
+/* line 86, ../sass/_page.scss */
 #content-wrapper div[role="content"] {
   background: rgba(255, 255, 255, 0.4);
   -webkit-border-radius: 15px;
@@ -6349,17 +6359,18 @@ header .brand {
   border-radius: 15px;
 }
 
-/* line 89, ../sass/_page.scss */
+/* line 92, ../sass/_page.scss */
 #footer-wrapper {
   background: #513165;
   -webkit-box-shadow: #513165 -5px 0 10px;
   -moz-box-shadow: #513165 -5px 0 10px;
   box-shadow: #513165 -5px 0 10px;
   color: #fff;
+  margin-top: 30px;
   padding-top: 30px;
   min-height: 100px;
 }
-/* line 99, ../sass/_page.scss */
+/* line 101, ../sass/_page.scss */
 #footer-wrapper footer * {
   font-size: 14px;
 }
