@@ -6338,6 +6338,15 @@ header .brand {
   position: relative;
   top: -150px;
 }
+/* line 81, ../sass/_page.scss */
+#content-wrapper div[role="content"] {
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
 
 /* line 87, ../sass/_page.scss */
 #footer-wrapper {

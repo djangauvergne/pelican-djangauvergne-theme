@@ -79,8 +79,8 @@ header {
     top:-150px;
 
     div[role="content"] {
-        //background: #fff;
-        //@include border-radius(15px);
+        background: rgba(#fff, 0.4);
+        @include border-radius(15px);
     }
 }
 
