@@ -57,9 +57,11 @@ header {
         list-style-type: none;
         height:40px;
         padding-top:20px;
+
         li {
             display: block;
             float: left;
+            padding-right:30px;
             text-transform: uppercase;
             font-weight: bold;
             &:before {
@@ -69,7 +71,10 @@ header {
                 content:" />";
             }
             a {
+                position:relative;
+                z-index:20;
                 color:$txtColor;
+                &:hover { color:$mainColor }
             }
         }
     }
