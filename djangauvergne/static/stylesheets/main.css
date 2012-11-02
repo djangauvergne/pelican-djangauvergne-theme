@@ -6273,16 +6273,16 @@ ul li:before {
   content: "\00BB \0020";
 }
 /* line 27, ../sass/_page.scss */
-ul.side-nav {
+ul.side-nav, ul.link-list {
   list-style: none inside none;
   text-indent: 0;
 }
 /* line 31, ../sass/_page.scss */
-ul.side-nav li:before {
+ul.side-nav li:before, ul.link-list li:before {
   content: "";
 }
 /* line 32, ../sass/_page.scss */
-ul.side-nav li a {
+ul.side-nav li a, ul.link-list li a {
   display: inline;
 }
 

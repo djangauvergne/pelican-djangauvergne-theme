@@ -24,7 +24,7 @@ ul {
     li:before {
         content:"\00BB \0020";
     }
-    &.side-nav {
+    &.side-nav, &.link-list {
         list-style: none inside none;
         text-indent:0;
         li {
