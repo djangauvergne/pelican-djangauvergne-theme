@@ -42,6 +42,7 @@ aside p { font-style: normal }
 
 blockquote p {
     color: lighten($txtColor, 30%);
+    font-style: italic;
 }
 
 .panel {
