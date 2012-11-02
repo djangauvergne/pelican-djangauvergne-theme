@@ -51,8 +51,6 @@ blockquote p {
 }
 
 header {
-    height:420px;
-
     ul.nav {
         list-style-type: none;
         height:40px;
@@ -91,9 +89,22 @@ header {
 }
 
 #content-wrapper {
+    margin-top:370px;
+
     div[role="content"] {
         background: rgba(#fff, 0.4);
         @include border-radius(15px);
+
+        .entry-title {
+            position:relative;
+            z-index:20;
+            @include text-shadow(#fff 1px 1px 5px);
+        }
+    }
+
+    & > aside {
+        position:relative;
+        z-index:20;
     }
 }
 
