@@ -4,12 +4,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    //font-family: 'YanoneKaffeesatzRegular';
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 h1 { font-size:ms(7) }
-h2 { font-size:ms(5) }
+h2 {
+    font-size:ms(5);
+    border-bottom: 1px dotted $mainColor;
+}
 h3 { font-size:ms(4) }
 h4 { font-size:ms(3) }
 h5 { font-size:ms(2) }

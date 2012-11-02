@@ -6230,37 +6230,38 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-/* line 11, ../sass/_page.scss */
+/* line 10, ../sass/_page.scss */
 h1 {
   font-size: 71px;
 }
 
-/* line 12, ../sass/_page.scss */
+/* line 11, ../sass/_page.scss */
 h2 {
   font-size: 44px;
+  border-bottom: 1px dotted #f27e8c;
 }
 
-/* line 13, ../sass/_page.scss */
+/* line 15, ../sass/_page.scss */
 h3 {
   font-size: 42px;
 }
 
-/* line 14, ../sass/_page.scss */
+/* line 16, ../sass/_page.scss */
 h4 {
   font-size: 27px;
 }
 
-/* line 15, ../sass/_page.scss */
+/* line 17, ../sass/_page.scss */
 h5 {
   font-size: 26px;
 }
 
-/* line 16, ../sass/_page.scss */
+/* line 18, ../sass/_page.scss */
 h6 {
   font-size: 17px;
 }
 
-/* line 18, ../sass/_page.scss */
+/* line 20, ../sass/_page.scss */
 ul {
   list-style-position: inside;
   list-style-type: none;
@@ -6268,30 +6269,30 @@ ul {
   padding-left: 1em;
   text-indent: -1em;
 }
-/* line 24, ../sass/_page.scss */
+/* line 26, ../sass/_page.scss */
 ul li:before {
   content: "\00BB \0020";
 }
-/* line 27, ../sass/_page.scss */
+/* line 29, ../sass/_page.scss */
 ul.side-nav, ul.link-list {
   list-style: none inside none;
   text-indent: 0;
 }
-/* line 31, ../sass/_page.scss */
+/* line 33, ../sass/_page.scss */
 ul.side-nav li:before, ul.link-list li:before {
   content: "";
 }
-/* line 32, ../sass/_page.scss */
+/* line 34, ../sass/_page.scss */
 ul.side-nav li a, ul.link-list li a {
   display: inline;
 }
 
-/* line 39, ../sass/_page.scss */
+/* line 41, ../sass/_page.scss */
 blockquote p {
   color: #a074bb;
 }
 
-/* line 43, ../sass/_page.scss */
+/* line 45, ../sass/_page.scss */
 .panel {
   background: rgba(240, 234, 242, 0.5);
   -webkit-border-radius: 5px;
@@ -6301,44 +6302,44 @@ blockquote p {
   border-radius: 5px;
 }
 
-/* line 49, ../sass/_page.scss */
+/* line 51, ../sass/_page.scss */
 header ul.nav {
   list-style-type: none;
   height: 40px;
   padding-top: 20px;
 }
-/* line 53, ../sass/_page.scss */
+/* line 55, ../sass/_page.scss */
 header ul.nav li {
   display: block;
   float: left;
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 58, ../sass/_page.scss */
+/* line 60, ../sass/_page.scss */
 header ul.nav li:before {
   content: "< ";
 }
-/* line 61, ../sass/_page.scss */
+/* line 63, ../sass/_page.scss */
 header ul.nav li:after {
   content: " />";
 }
-/* line 64, ../sass/_page.scss */
+/* line 66, ../sass/_page.scss */
 header ul.nav li a {
   color: #513165;
 }
-/* line 70, ../sass/_page.scss */
+/* line 72, ../sass/_page.scss */
 header .brand {
   z-index: 10;
   position: relative;
   top: -50px;
 }
 
-/* line 77, ../sass/_page.scss */
+/* line 79, ../sass/_page.scss */
 #content-wrapper {
   position: relative;
   top: -150px;
 }
-/* line 81, ../sass/_page.scss */
+/* line 83, ../sass/_page.scss */
 #content-wrapper div[role="content"] {
   background: rgba(255, 255, 255, 0.4);
   -webkit-border-radius: 15px;
@@ -6348,7 +6349,7 @@ header .brand {
   border-radius: 15px;
 }
 
-/* line 87, ../sass/_page.scss */
+/* line 89, ../sass/_page.scss */
 #footer-wrapper {
   background: #513165;
   -webkit-box-shadow: #513165 -5px 0 10px;
@@ -6358,7 +6359,7 @@ header .brand {
   padding-top: 30px;
   min-height: 100px;
 }
-/* line 97, ../sass/_page.scss */
+/* line 99, ../sass/_page.scss */
 #footer-wrapper footer * {
   font-size: 14px;
 }
