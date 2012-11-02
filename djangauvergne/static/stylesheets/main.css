@@ -6288,11 +6288,16 @@ ul.side-nav li a, ul.link-list li a {
 }
 
 /* line 41, ../sass/_page.scss */
+aside p {
+  font-style: normal;
+}
+
+/* line 43, ../sass/_page.scss */
 blockquote p {
   color: #a074bb;
 }
 
-/* line 45, ../sass/_page.scss */
+/* line 47, ../sass/_page.scss */
 .panel {
   background: rgba(240, 234, 242, 0.5);
   -webkit-border-radius: 5px;
@@ -6302,54 +6307,54 @@ blockquote p {
   border-radius: 5px;
 }
 
-/* line 50, ../sass/_page.scss */
+/* line 52, ../sass/_page.scss */
 header {
   height: 420px;
 }
-/* line 53, ../sass/_page.scss */
+/* line 55, ../sass/_page.scss */
 header ul.nav {
   list-style-type: none;
   height: 40px;
   padding-top: 20px;
 }
-/* line 57, ../sass/_page.scss */
+/* line 59, ../sass/_page.scss */
 header ul.nav li {
   display: block;
   float: left;
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 62, ../sass/_page.scss */
+/* line 64, ../sass/_page.scss */
 header ul.nav li:before {
   content: "< ";
 }
-/* line 65, ../sass/_page.scss */
+/* line 67, ../sass/_page.scss */
 header ul.nav li:after {
   content: " />";
 }
-/* line 68, ../sass/_page.scss */
+/* line 70, ../sass/_page.scss */
 header ul.nav li a {
   color: #513165;
 }
-/* line 75, ../sass/_page.scss */
+/* line 77, ../sass/_page.scss */
 header #brand > div {
   position: absolute;
   top: 10px;
 }
-/* line 79, ../sass/_page.scss */
+/* line 81, ../sass/_page.scss */
 header #brand #brand_bg {
   z-index: 10;
 }
-/* line 80, ../sass/_page.scss */
+/* line 82, ../sass/_page.scss */
 header #brand #brand_title {
   z-index: 11;
 }
-/* line 81, ../sass/_page.scss */
+/* line 83, ../sass/_page.scss */
 header #brand #brand_poney {
   z-index: 12;
 }
 
-/* line 86, ../sass/_page.scss */
+/* line 88, ../sass/_page.scss */
 #content-wrapper div[role="content"] {
   background: rgba(255, 255, 255, 0.4);
   -webkit-border-radius: 15px;
@@ -6359,7 +6364,7 @@ header #brand #brand_poney {
   border-radius: 15px;
 }
 
-/* line 92, ../sass/_page.scss */
+/* line 94, ../sass/_page.scss */
 #footer-wrapper {
   background: #513165;
   -webkit-box-shadow: #513165 -5px 0 10px;
@@ -6370,7 +6375,7 @@ header #brand #brand_poney {
   padding-top: 30px;
   min-height: 100px;
 }
-/* line 101, ../sass/_page.scss */
+/* line 103, ../sass/_page.scss */
 #footer-wrapper footer * {
   font-size: 14px;
 }
